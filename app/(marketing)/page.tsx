@@ -11,7 +11,7 @@ export default function MarketingPage() {
           <MedalIcon className="mr-2 h-6 w-6" />
           No 1 task management
         </div>
-        <h1 className="text-center text-3xl text-neutral-800 md:text-6xl">
+        <h1 className="text-center text-3xl tracking-tighter text-neutral-800 md:text-6xl">
           Trello-Clone helps teams move
           <br />{" "}
           <span className="mt-6 inline-block w-fit  rounded-md bg-gradient-to-r from-fuchsia-600 to-pink-600 px-4 py-2 pb-4 text-3xl text-white md:text-6xl ">
