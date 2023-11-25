@@ -5,8 +5,15 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Trello Clone",
+  title: {
+    default: "Trello Clone",
+    template: `%s | Trello Clone`,
+  },
   description: "Testing Next.js App Router",
+  icons: [
+    { url: "/logo.svg", href: "/logo.svg" },
+    { url: "/logo.png", href: "/logo.png" },
+  ],
 };
 
 type Props = {
