@@ -13,12 +13,14 @@ export function Navbar() {
           <Logo />
         </Link>
         <Button
+          variant="primary"
           size="sm"
           className="hidden h-auto rounded-sm px-2 py-1.5 md:block"
         >
           Create
         </Button>
         <Button
+          variant="primary"
           size="sm"
           aria-label="Create"
           className="grid h-8 w-8 place-items-center rounded-sm md:hidden"
