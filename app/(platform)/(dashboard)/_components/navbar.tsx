@@ -7,8 +7,8 @@ import { OrganizationSwitcher, UserButton } from "@clerk/nextjs";
 
 export function Navbar() {
   return (
-    <nav className="fixed top-0 z-50 h-14 w-full border-b bg-white px-4 shadow-sm">
-      <div className="mx-auto flex h-full max-w-4xl items-center gap-4">
+    <nav className="fixed top-0 z-50 h-14 w-full border-b bg-white shadow-sm">
+      <div className="mx-auto flex h-full max-w-6xl items-center gap-4 px-4 2xl:max-w-screen-xl">
         <Link href="/">
           <Logo />
         </Link>
